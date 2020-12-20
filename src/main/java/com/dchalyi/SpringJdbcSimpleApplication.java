@@ -1,4 +1,4 @@
-package io.github.htr3n.springjdbcsimple;
+package com.dchalyi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

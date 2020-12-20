@@ -1,6 +1,7 @@
-package io.github.htr3n.springjdbcsimple.dao;
+package com.dchalyi.dao;
 
-import io.github.htr3n.springjdbcsimple.entity.Message;
+import com.dchalyi.entity.Message;
+import org.assertj.core.api.Assertions;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -124,9 +125,9 @@ public class MessageDaoTest {
     @Test
     public void delete_shouldYieldTrue_forExistingMessage() {
         messageDao.create(alice);
-        assertThat(messageDao.findAll()).hasSize(ONE_CUSTOMER);
+        Assertions.assertThat(messageDao.findAll()).hasSize(ONE_CUSTOMER);
         assertThat(messageDao.delete(alice.getId())).isTrue();
         assertThat(messageDao.findById(alice.getId()).isPresent()).isFalse();
-        assertThat(messageDao.findAll()).isEmpty();
+        Assertions.assertThat(messageDao.findAll()).isEmpty();
     }
 }

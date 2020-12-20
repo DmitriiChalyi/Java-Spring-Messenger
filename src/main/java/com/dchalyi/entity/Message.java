@@ -1,4 +1,4 @@
-package io.github.htr3n.springjdbcsimple.entity;
+package com.dchalyi.entity;
 
 public class Message {
 	private Integer id;

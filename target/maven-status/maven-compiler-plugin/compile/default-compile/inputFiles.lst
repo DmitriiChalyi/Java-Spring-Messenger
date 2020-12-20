@@ -1,3 +1,3 @@
-/Users/18446094/Documents/Java_Projects/htr3nMyCopy/src/main/java/io/github/htr3n/springjdbcsimple/SpringJdbcSimpleApplication.java
-/Users/18446094/Documents/Java_Projects/htr3nMyCopy/src/main/java/io/github/htr3n/springjdbcsimple/dao/MessageDao.java
-/Users/18446094/Documents/Java_Projects/htr3nMyCopy/src/main/java/io/github/htr3n/springjdbcsimple/entity/Message.java
+/Users/18446094/Documents/Java_Projects/transfer/msn2/src/main/java/com/dchalyi/SpringJdbcSimpleApplication.java
+/Users/18446094/Documents/Java_Projects/transfer/msn2/src/main/java/com/dchalyi/entity/Message.java
+/Users/18446094/Documents/Java_Projects/transfer/msn2/src/main/java/com/dchalyi/dao/MessageDao.java

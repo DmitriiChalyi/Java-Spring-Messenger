@@ -1,6 +1,6 @@
-package io.github.htr3n.springjdbcsimple.dao;
+package com.dchalyi.dao;
 
-import io.github.htr3n.springjdbcsimple.entity.Message;
+import com.dchalyi.entity.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
