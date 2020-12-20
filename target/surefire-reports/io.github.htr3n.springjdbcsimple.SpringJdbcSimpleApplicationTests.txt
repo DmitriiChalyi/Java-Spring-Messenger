@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.github.htr3n.springjdbcsimple.SpringJdbcSimpleApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.231 s - in io.github.htr3n.springjdbcsimple.SpringJdbcSimpleApplicationTests
